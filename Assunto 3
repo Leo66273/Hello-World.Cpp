@@ -1,0 +1,41 @@
+int main()
+{
+    int filme = 0;
+    float ingressos = 0;
+    
+    std::cout << "Seja bem vindo ao cinema André Gussi! \n";
+    std::cout << "Selecione o filme que você deseja assistir \n";
+    std::cout << "1: Vingadores 4 \n";
+    std::cout << "2: Como Treinar o Seu Dragão 3  \n";
+    std::cout << "3: Dumbo \n";
+    std::cout << "4: Shazam! \n \n";
+    std::cin >> filme;
+    
+    std::cout << "\nQuantos ingressos você deseja comprar? \n";
+    std::cin >> ingressos;
+    
+    ingressos *= 12.50;
+
+    if (filme = 1){
+        
+        std::cout << "Sua compra de R$" << ingressos <<" para o filme " << "Vingadores 4 " << "foi finalizada";
+        
+    }
+    if (filme = 2){
+        
+        std::cout << "Sua compra de R$" << ingressos <<" para o filme " << "Como Treinar o Seu Dragão 3 " << "foi finalizada";
+        
+    }
+    if(filme = 3){
+        
+        std::cout << "Sua compra de R$" << ingressos <<" para o filme " << "Dumbo " << "foi finalizada";
+        
+    }
+   if (filme = 4){
+        
+        std::cout << "Sua compra de R$" << ingressos <<" para o filme " << "Shazam! " << "foi finalizada";
+        
+    }
+    
+    return 0;
+}
